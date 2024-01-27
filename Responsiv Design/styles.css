@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh; /* Halva viewport */
+  width: 100%;
+}
+
+.square {
+  flex: 1 0 50%; /* grow, shrink, basis */
+}
+
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 5vw; /* Viewport width responsive font size */
+}
+    
