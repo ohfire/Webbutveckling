@@ -1,0 +1,22 @@
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #5799d6;
+}
+
+.wrapper > section {
+  background-color: #ffc000;
+  border-radius: 50%; /* Använd 50% för en perfekt cirkel */
+  width: 90vmin; /* Använd 90vmin för att säkerställa att cirkeln täcker både över- och underkanten */
+  height: 90vmin; /* Sätt samma höjd som bredd för att behålla cirkelformen */
+}
